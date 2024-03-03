@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="footer-nav">
+        <div class="footer-left">
+            <div class="footer-logo"></div>
+            <ul>
+                <li><a href="/store-system">Store</a></li>
+                <li><a href="/support-center">Support Center</a></li>
+                <li><a href="/customer-service">Customer Service</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-right">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/yourfacebookpage" target="_blank" rel="noopener noreferrer">
+                    <img height="40px" width="40px" class="object-contain"
+                        src="https://image.hsv-tech.io/60x60/reebok/common/b712e772-6e26-4a1f-8131-bba53e470796.webp"
+                        alt="social-media-1">
+                </a>
+                <a href="https://www.instagram.com/yourinstagram" target="_blank" rel="noopener noreferrer">
+                    <img height="40px" width="40px" class="object-contain"
+                        src="https://image.hsv-tech.io/60x60/reebok/common/f1902371-a8fa-439a-bb14-05c9e4867129.webp"
+                        alt="social-media-2">
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <style>
+        .footer-left {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-flex: 3;
+            flex-grow: 3;
+        }
+
+        .footer-right {
+            -webkit-box-flex: 2;
+            flex-grow: 2;
+            padding-left: 40px;
+            display: flex;
+            -webkit-box-pack: end;
+            justify-content: flex-end;
+        }
+
+        .footer-logo {
+            background-image: url(https://image.hsv-tech.io/300x90/common/d98f7741-4063-409b-86c9-c8e203228884.webp);
+            filter: brightness(0) invert(1);
+            height: 30px;
+            width: 100px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            align-self: center;
+            margin-right: 38px;
+        }
+
+        .footer-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2a5298;
+            padding: 10px;
+        }
+
+        .footer-nav ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-nav li {
+            margin-right: 100px;
+        }
+
+        .footer-nav li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .footer-nav .social-icons a img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+
+</body>
+
+</html>
